@@ -80,4 +80,3 @@ clearEl.addEventListener('click', function () {
 function updateSizeOnScreen() {
     sizeEl.innerText = size;
 }
-}
