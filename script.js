@@ -1,6 +1,7 @@
 var canvas = document.getElementById("canvas");
 var increaseBtn = document.getElementById("increase");
 var decreaseBtn = document.getElementById("decrease");
+
 var sizeEl = document.getElementById("size");
 var colorEl = document.getElementById("color");
 var clearEl = document.getElementById("clear");
@@ -80,3 +81,4 @@ clearEl.addEventListener('click', function () {
 function updateSizeOnScreen() {
     sizeEl.innerText = size;
 }
+
